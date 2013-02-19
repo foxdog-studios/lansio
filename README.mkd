@@ -1,0 +1,31 @@
+lansio
+======
+
+lansio is a command-line utility that launches the Android application you're
+currently developing.
+
+lansio is licensed under the Apache License, Version 2.0 (see
+`$REPO/LICENSE.txt`).
+
+Installation
+------------
+
+lansio requires Python 3. If you're using Arch Linux, just run
+
+    $ $REPO/scripts/setup-arch.sh
+
+Then copy or syslink `$REPO/src/lansio` to a directory on your `$PATH` and
+make sure it's executable
+
+    $ chmod +x path/to/lansio
+
+Usage
+-----
+
+When your working directory is within an Android project and a device (real or
+emulated) is connected to your computer, run
+
+    $ lansio
+
+and the application will be launched.
+
